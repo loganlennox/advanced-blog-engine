@@ -6,5 +6,5 @@ app = Flask(__name__)
 # Add configuration from config.py
 app.config.from_object("config")
 
-# Import basic routes
-from app import views
+# Import controllers
+from app import controllers
